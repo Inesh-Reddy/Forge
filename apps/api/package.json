@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@repo/db": "workspace:*",
+    "@repo/queue": "workspace:*",
     "@types/dotenv": "^8.2.3",
     "@types/express": "^5.0.6",
     "dotenv": "^17.3.1",

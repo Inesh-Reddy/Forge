@@ -1,0 +1,20 @@
+{
+  "name": "@repo/workers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "dependencies": {
+    "@repo/db": "workspace:*",
+    "@repo/queue": "workspace:*",
+    "bullmq": "^5.71.0",
+    "ioredis": "5.9.3",
+    "uuid": "^13.0.0"
+  }
+}
